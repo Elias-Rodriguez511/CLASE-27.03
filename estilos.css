@@ -7,7 +7,7 @@
 
 body{
     font-family: "Inter", sans-serif;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(202, 202, 202);
     margin: 5%;
     line-height: 1.6;
 }
@@ -16,12 +16,12 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgb(83, 94, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 header{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(56, 56, 56);
     padding: 20px 0;
     border-radius: 8px 8px 0 0;
     background-image: url('./img/fondos.avif');
@@ -61,7 +61,7 @@ header h2{
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid #0ebaba;
+    border: 7px solid #000000;
     margin: 5%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
@@ -80,5 +80,52 @@ header h2{
     display: inline-block;
     vertical-align: middle;
     margin-left: 1%;
-    text-shadow: 0 0 20px rgba(34,206,206,0.5);
+    text-shadow: 0 0 20px rgb(68, 0, 255);
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+section{
+    background-color: rgb(212, 212, 212);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: #0ebaba;
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px;
+}
+
+i{
+    color: #000000;
+    margin-right: 8px;
+}
+
+address p{
+    margin: 5px 0;
+}
+
+address a{
+    color: #0026ff;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 15px;
 }
